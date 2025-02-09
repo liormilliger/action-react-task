@@ -1,10 +1,10 @@
 
-1. Download project
-2. create local git repository
-3. create github remote repository
-4. connect the local and remote
+v1. Download project
+v2. create local git repository
+v3. create github remote repository
+v4. connect the local and remote
 5. create 2 workflows
-6. Workflow 1: Tests and lints the project and simulates the deployment whenever a new commit is pushed
+v6. Workflow 1: Tests and lints the project and simulates the deployment whenever a new commit is pushed
     download the project code, install depndencies, run lint tests and build scripts,
     and output some messages as "Deploying project"
     the lint and test scripts are included.
