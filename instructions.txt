@@ -10,5 +10,5 @@ v6. Workflow 1: Tests and lints the project and simulates the deployment wheneve
     the lint and test scripts are included.
     Can use one job for all 3 scripts or 3 different jobs running one after each other.
 7. Workflow 2: listen to an event - "issues" (official trigger)
-    should output the event details in the shell via echo {{ $ }}
+    should output the event details in the shell via echo "${{  }}"
     get the github action "context"
